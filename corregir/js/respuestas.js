@@ -1,16 +1,58 @@
 var answers = [
-  { id: 0x1, ans: 0x2 },
-  { id: 0x2, ans: 0x4 },
-  { id: 0x3, ans: 0x1 },
-  { id: 0x4, ans: 0x1 },
-  { id: 0x5, ans: 0x1 },
-  { id: 0x6, ans: 0x1 },
-  { id: 0x7, ans: 0x0 },
-  { id: 0x8, ans: 0x0 },
-  { id: 0x9, ans: 0x0 },
-  { id: 0xa, ans: 0x0 },
-  { id: 0xb, ans: 0x2 },
-  { id: 0xc, ans: 0x2 },
-  { id: 0xd, ans: 0x1 },
-  { id: 0xe, ans: 0x1 }
+  {
+    id: 1,
+    ans: 2
+  },
+  {
+    id: 2,
+    ans: 4
+  },
+  {
+    id: 3,
+    ans: 1
+  },
+  {
+    id: 4,
+    ans: 1
+  },
+  {
+    id: 5,
+    ans: 1
+  },
+  {
+    id: 6,
+    ans: 1
+  },
+  {
+    id: 7,
+    ans: 0
+  },
+  {
+    id: 8,
+    ans: 0
+  },
+  {
+    id: 9,
+    ans: 0
+  },
+  {
+    id: 10,
+    ans: 0
+  },
+  {
+    id: 11,
+    ans: 2
+  },
+  {
+    id: 12,
+    ans: 2
+  },
+  {
+    id: 13,
+    ans: 1
+  },
+  {
+    id: 14,
+    ans: 1
+  }
 ];
