@@ -1,4 +1,4 @@
-# Plataforma para tomar evaluaciones multiple choice
+# Plataforma para tomar evaluaciones
 
 Impulsado por la necesidad de mi esposa de tomar evaluaciones de manera online por la cuarentena obligatoria del año 2020 causada por la pandemia COVID-19 (Coronavirus).
 
@@ -32,11 +32,38 @@ En la carpeta /js podras modificar de manera libre estos archivos:
   },
 ```
 
+Para realizar preguntas abiertas debes reemplazar `choices` por `textarea: true`.
+
+```javascript
+  {
+    id: 0,
+    question: "Desarrolla conclusiones sobre el estudio del petroleo y sus derivados",
+    textarea: true
+  },
+```
+
 - textos.js
 
 En la carpeta /corregir/js podras modificar:
 
 - respuestas.js
+
+Ejemplo de estructura para respuestas multiple choice:
+
+```javascript
+  {
+    id: 1, // identificador de la pregunta mc
+    ans: 2 // identificador de la respuesta correcta
+  },
+```
+
+Ejemplo de estructura para respuestas abiertas:
+
+```javascript
+  {
+    id: 0, // identificador de la pregunta abierta
+  },
+```
 
 ## Como corrijo?
 

@@ -101,5 +101,15 @@ var quest = [
     question:
       "Cuando el numero de electrones es mayor que el de protones, el atomo:",
     choices: ["Tiene carga positiva", "Tiene carga negativa", "Es neutro"]
+  },
+  {
+    id: 15,
+    question: "La siguiente especie quimica Ca<sup>2+</sup>:",
+    choices: ["Gano dos electrones", "Perdio dos electrones", "Es un anion"]
+  },
+  {
+    id: 16,
+    question: "La siguiente especie quimica Cl<sup>-</sup>:",
+    choices: ["Gano un electron", "Perdio un electron", "Es un cation"]
   }
 ];

@@ -54,5 +54,13 @@ var answers = [
   {
     id: 14,
     ans: 1
+  },
+  {
+    id: 15,
+    ans: 1
+  },
+  {
+    id: 16,
+    ans: 0
   }
 ];
