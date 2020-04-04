@@ -1,5 +1,6 @@
 var config = {
   timeInMinutes: 10,
   numberOfQuestions: 10,
-  nombreArchivo: "respuestas"
+  nombreArchivo: "respuestas",
+  cookie: "fisicoquimica3"
 };
