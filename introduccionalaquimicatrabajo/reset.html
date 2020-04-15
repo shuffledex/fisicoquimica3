@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Reset</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="js/configuracion.js"></script>
+    <script>
+      (function () {
+        document.cookie =
+          "SYSTEM_" +
+          config.cookie +
+          "=; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+
+        document.cookie =
+          "ANSWERS_" +
+          config.cookie +
+          "=; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+      })();
+    </script>
+  </body>
+</html>
