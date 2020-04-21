@@ -1,6 +1,6 @@
 var config = {
-  timeInMinutes: 30,
-  numberOfQuestions: 14,
+  timeInMinutes: 25,
+  numberOfQuestions: 10,
   nombreArchivo: "respuestas",
-  cookie: "introduccionalaquimica"
+  cookie: "introduccionalaquimica",
 };
